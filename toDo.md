@@ -102,7 +102,7 @@ This Challenge is graded based on the following criteria:
 
 ### Deliverables: 25%
 
-* A sample HTML file generated using the application must be submitted. ❌
+* A sample HTML file generated using the application must be submitted. ✅
 
 * Your GitHub repository containing your application code. ✅
 
@@ -126,7 +126,7 @@ This Challenge is graded based on the following criteria:
 
 * Repository contains multiple descriptive commit messages. ✅
 
-* Repository contains a high-quality readme with description. ❌
+* Repository contains a high-quality readme with description. ✅
 
 ---
 
@@ -134,9 +134,9 @@ This Challenge is graded based on the following criteria:
 
 You are required to submit the following for review:
 
-* A sample HTML file generated using your application. ❌
+* A sample HTML file generated using your application. ✅
 
-* The URL of the GitHub repository, with a unique name and a readme describing the project. ❌
+* The URL of the GitHub repository, with a unique name and a readme describing the project. ✅
 
 ---
 © 2024 edX Boot Camps LLC. Confidential and Proprietary. All Rights Reserved.

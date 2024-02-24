@@ -170,4 +170,4 @@ async function addManager() { //async lets use await
   function generateHTML() {
     const html = render(team); // Generating HTML from the team data
     fs.writeFileSync(outputPath, html); // Writing HTML to a file named team.html in the output folder
-    console.log("HTML generated successfully!");
+    console.log("HTML generated successfully!");}
