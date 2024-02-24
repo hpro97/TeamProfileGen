@@ -10,8 +10,8 @@ As a manager a user want to generate a webpage that displays my team's basic inf
 
 ## Instructions
 
-* Create a command-line application that accepts accepts user input using the provided starter code. ❌ 
-  * Create classes for each team member provided and export them. The tests for these classes (in the `_tests_` directory) must ALL pass. ❌    
+* Create a command-line application that accepts accepts user input using the provided starter code. ✅
+  * Create classes for each team member provided and export them. The tests for these classes (in the `_tests_` directory) must ALL pass. ✅       
     * The first class is an `Employee` parent class with the following properties and methods:     ✅   
       * `name` ✅
       * `id` ✅
@@ -33,32 +33,32 @@ As a manager a user want to generate a webpage that displays my team's basic inf
       * `getSchool()` ✅
       * `getRole()`&mdash;overridden to return `'Intern'` ✅
     * Finally, although it’s not a requirement, consider adding validation to ensure that user input is in the proper format. ❓  
-  * Write code in `index.js` that uses inquirer to gather information about the development team members and creates objects for each team member using the correct classes as blueprints. ❌
-    * When a user starts the application then they are prompted to enter the **team manager**’s: ❌
-      * Name ❌
-      * Employee ID ❌
-      * Email address ❌
-      * Office number ❌
-    * When a user enters those requirements then the user is presented with a menu with the option to: ❌
-      * Add an engineer ❌
-      * Add an intern  ❌
-      * Finish building the team ❌
-    * When a user selects the **engineer** option then a user is prompted to enter the following and then the user is taken back to the menu: ❌
-      * Engineer's Name ❌
-      * ID ❌
-      * Email ❌
-      * GitHub username ❌
-    * When a user selects the intern option then a user is prompted to enter the following and then the user is taken back to the menu: ❌
-      * Intern’s name ❌
-      * ID ❌
-      * Email ❌
-      * School❌
-    * When a user decides to finish building their team then they exit the application, and the HTML is generated. ❌
-  * Call the `render` function (provided for you) and pass in an array containing all employee objects; ❌
-    * The `render` function will generate and return a block of HTML including templated divs for each employee! ❌
-  * Create an HTML file using the HTML returned from the `render` function.  ❌
-    * Write it to a file named `team.html` in the `output` folder. ❌ 
-    * You can use the provided variable `outputPath` to target this location. ❌
+  * Write code in `index.js` that uses inquirer to gather information about the development team members and creates objects for each team member using the correct classes as blueprints. ✅
+    * When a user starts the application then they are prompted to enter the **team manager**’s: ✅
+      * Name ✅
+      * Employee ID ✅
+      * Email address ✅
+      * Office number ✅
+    * When a user enters those requirements then the user is presented with a menu with the option to: ✅
+      * Add an engineer ✅
+      * Add an intern  ✅
+      * Finish building the team ✅
+    * When a user selects the **engineer** option then a user is prompted to enter the following and then the user is taken back to the menu: ✅
+      * Engineer's Name ✅
+      * ID ✅
+      * Email ✅
+      * GitHub username ✅
+    * When a user selects the intern option then a user is prompted to enter the following and then the user is taken back to the menu: ✅
+      * Intern’s name ✅
+      * ID ✅
+      * Email ✅
+      * School✅
+    * When a user decides to finish building their team then they exit the application, and the HTML is generated. ✅
+  * Call the `render` function (provided for you) and pass in an array containing all employee objects; ✅
+    * The `render` function will generate and return a block of HTML including templated divs for each employee! ✅
+  * Create an HTML file using the HTML returned from the `render` function.  ✅
+    * Write it to a file named `team.html` in the `output` folder. ✅ 
+    * You can use the provided variable `outputPath` to target this location. ✅
 
 ---
 
@@ -86,13 +86,13 @@ node index.js ✅
 
 ## Hints
 
-* You will want to make your methods as pure as possible. This means try to make your methods simple so that they are easier to test. ❌
+* You will want to make your methods as pure as possible. This means try to make your methods simple so that they are easier to test. ✅
 
 * The different employee types should all inherit some methods and properties from a base class of `Employee`. ✅
  
-* Be sure to test out each class and verify it generates an object with the correct structure and methods. This structure will be crucial in order for the provided `render` function to work! ❌
+* Be sure to test out each class and verify it generates an object with the correct structure and methods. This structure will be crucial in order for the provided `render` function to work! ✅
   
-* You may need to check if the `output` folder exists and create it if it does not. ❌
+* You may need to check if the `output` folder exists and create it if it does not. ✅
 
 ---
 
@@ -104,7 +104,7 @@ This Challenge is graded based on the following criteria:
 
 * A sample HTML file generated using the application must be submitted. ❌
 
-* Your GitHub repository containing your application code. ❓
+* Your GitHub repository containing your application code. ✅
 
 ### Technical Acceptance Criteria: 50%
 
@@ -112,7 +112,7 @@ This Challenge is graded based on the following criteria:
 
 	* Uses the [Inquirer package](https://www.npmjs.com/package/inquirer). ✅
 
-	* All tests pass using the [Jest package](https://www.npmjs.com/package/jest). ❌
+	* All tests pass using the [Jest package](https://www.npmjs.com/package/jest). ✅
 
   * The application must have `Employee`, `Manager`, `Engineer`, and `Intern` classes. ✅
 
